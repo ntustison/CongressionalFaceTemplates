@@ -1,0 +1,5 @@
+#Insight Transform File V1.0
+ #Transform 0
+ Transform: AffineTransform_double_2_2
+ Parameters: 0.9814650497880314 -0.012481514344868494 0.020457458345657216 0.972818692694469 16.5 -9
+ FixedParameters: 98 124
