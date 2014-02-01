@@ -16,7 +16,7 @@ my $usage = qq{
   example: makeCongressFaceTemplate.pl ./TemplateSenateDemocrats/ party=D title=Sen
  };
 
-my $baseDir = "/Users/ntustison/Data/CongressionalFacialTemplates/";
+my $baseDir = "/Users/ntustison/Data/Public/CongressionalFaceTemplates/";
 my $facesDir = "${baseDir}/Warped/";
 my $file = "${baseDir}/legislators.csv";
 
@@ -105,9 +105,9 @@ my @args = ( "${baseDir}/antsMultivariateTemplateConstruction2.sh",
              '-o', "${outputDir}/T_",
              '-i', 4,
              '-g', 0.25,
-             '-j', 4,
+             '-j', 8,
              '-c', 2,
-             '-k', 1,
+             '-k', 2,
              '-w', '0.25x1.0',
              '-f', '4x2x1',
              '-s', '2x1x0vox',
