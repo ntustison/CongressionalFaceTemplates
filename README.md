@@ -11,3 +11,7 @@ Affine average
 Senate Democrats
 ----------------
 `perl makeCongressFaceTemplate.pl ./TemplateSenateDemocrats/ party=D title=Sen`
+
+
+### References
+* [Optimal templates](http://www.ncbi.nlm.nih.gov/pubmed/19818860)
