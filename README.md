@@ -1,7 +1,9 @@
 CongressionalFaceTemplates
 ==========================
 
-Oh yeah? Who's the only one here who knows secret Ninja moves from the government?
+"Oh yeah? Who's the only one here who knows secret Ninja moves from the government?"
+
+_original post via [Gawker](http://gawker.com/this-is-an-average-of-every-member-of-congress-1511522162)_
 
 All Congresspersons
 --------------
