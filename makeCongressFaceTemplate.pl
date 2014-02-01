@@ -114,7 +114,8 @@ my @args = ( "${baseDir}/antsMultivariateTemplateConstruction2.sh",
              '-q', '100x50x20',
              '-n', 0,
              '-r', 0,
-             '-m', 'CC',
+             '-l', 0,
+             '-m', 'CC[4]',
              '-t', 'BSplineSyN[0.1,20,0]',
              @images );
 
