@@ -88,7 +88,7 @@ for( my $i = 1; $i < @csvContents; $i++ )
     }
   if( $isMatch && -e "${facesDir}/${bioId}Warped.nii.gz" )
     {
-    push( @images, "${facesDir}/${bioId}Warped.nii.gz" );
+    push( @images, "${facesDir}/${bioId}Warped.nii.gz", "${facesDir}/${bioId}WarpedLaplacian.nii.gz" );
     }
   }
 
@@ -108,10 +108,10 @@ my @args = ( "${baseDir}/antsMultivariateTemplateConstruction2.sh",
              '-j', 4,
              '-c', 2,
              '-k', 1,
-             '-w', 1,
-             '-f', '2x1',
-             '-s', '1x0vox',
-             '-q', '50x20',
+             '-w', '0.25x1.0',
+             '-f', '4x2x1',
+             '-s', '2x1x0vox',
+             '-q', '100x50x20',
              '-n', 0,
              '-r', 0,
              '-m', 'CC',
