@@ -118,7 +118,7 @@ my @args = ( "antsMultivariateTemplateConstruction2.sh",
              '-r', 0,
              '-l', 0,
              '-m', 'CC[1]',
-             '-t', 'SyN[0.1,3,0]',
+             '-t', 'BSplineSyN[0.1,25,0]',
              @images );
 print "@args\n";
 system( @args ) == 0 || die "Error: template building.\n";
