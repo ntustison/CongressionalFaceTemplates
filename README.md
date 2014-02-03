@@ -3,8 +3,6 @@ CongressionalFaceTemplates
 
 "Oh yeah? Who's the only one here who knows secret Ninja moves from the government?"
 
-_original post via [Gawker](http://gawker.com/this-is-an-average-of-every-member-of-congress-1511522162)_
-
 All Congresspersons
 --------------
 
@@ -94,3 +92,6 @@ House Republicans
 
 ### References
 * [Optimal templates](http://www.ncbi.nlm.nih.gov/pubmed/19818860)
+* original post via [Gawker](http://gawker.com/this-is-an-average-of-every-member-of-congress-1511522162)
+* original data from Sunlight Labs' [collection](http://sunlightlabs.github.io/congress/) of congressional portraits
+
