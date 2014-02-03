@@ -62,6 +62,10 @@ Senate Republicans
 
 ![Affine average](https://github.com/ntustison/CongressionalFaceTemplates/blob/master/Figures/averageSenateRepublicansSyN.png?raw=true "")
 
+### ANTs:  B-spline SyN (`SyN[0.1,25,0]`)
+
+![Affine average](https://github.com/ntustison/CongressionalFaceTemplates/blob/master/Figures/averageSenateRepublicansBSyN.png?raw=true "")
+
 House Democrats
 ----------------
 `perl makeCongressFaceTemplate.pl ./TemplateHouseDemocrats/ party=D title=Rep`
