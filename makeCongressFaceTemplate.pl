@@ -98,24 +98,27 @@ for( my $i = 1; $i < @csvContents; $i++ )
 #
 #############################################################
 
+`AverageImages 2 ${outputDir}/affineAverage.nii.gz 0 @images`;
+`RescaleImageIntensity 2 ${outputDir}/affineAverage.nii.gz ${outputDir}/affineAverage.nii.gz 0 1000`;
+`ConvertImage 2 ${outputDir}/affineAverage.nii.gz ${outputDir}/affineAverage.png 2`;
 
-
-my @args = ( "${baseDir}/antsMultivariateTemplateConstruction2.sh",
+my @args = ( "antsMultivariateTemplateConstruction2.sh",
              '-d', 2,
              '-o', "${outputDir}/T_",
-             '-i', 4,
+             '-i', 6,
              '-g', 0.25,
              '-j', 8,
              '-c', 2,
              '-k', 2,
              '-w', '0.25x1.0',
-             '-f', '4x2x1',
-             '-s', '2x1x0vox',
-             '-q', '100x50x20',
+             '-f', '8x4x2x1',
+             '-s', '3x2x1x0vox',
+             '-q', '100x75x50x20',
              '-n', 0,
              '-r', 0,
-             '-m', 'CC',
-             '-t', 'BSplineSyN[0.1,20,0]',
+             '-l', 0,
+             '-m', 'CC[1]',
+             '-t', 'SyN[0.1,3,0]',
              @images );
 
 print "@args\n";
