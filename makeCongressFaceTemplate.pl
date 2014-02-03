@@ -117,14 +117,11 @@ my @args = ( "antsMultivariateTemplateConstruction2.sh",
              '-n', 0,
              '-r', 0,
              '-l', 0,
-<<<<<<< HEAD
              '-m', 'CC[1]',
              '-t', 'SyN[0.1,3,0]',
-=======
-             '-m', 'CC[4]',
-             '-t', 'BSplineSyN[0.1,20,0]',
->>>>>>> e770e6d980776c48eea3bed631b7eeedfef3978b
              @images );
-
 print "@args\n";
 system( @args ) == 0 || die "Error: template building.\n";
+
+`RescaleImageIntensity 2 ${outputDir}/antsAverage.nii.gz ${outputDir}/antsAverage.nii.gz 0 1000`;
+`ConvertImage 2 ${outputDir}/antsAverage.nii.gz ${outputDir}/antsAverage.png 2`;
