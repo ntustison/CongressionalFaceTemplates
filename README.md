@@ -94,9 +94,9 @@ House Republicans
 
 ![Affine average](https://github.com/ntustison/CongressionalFaceTemplates/blob/master/Figures/averageHouseRepublicansSyN.png?raw=true "")
 
+### ANTs:  B-spline SyN (`BSplineSyN[0.1,25,0]`)
 
-
-
+![Affine average](https://github.com/ntustison/CongressionalFaceTemplates/blob/master/Figures/averageHouseRepublicansBSyN.png?raw=true "")
 
 ### References
 * [Optimal templates](http://www.ncbi.nlm.nih.gov/pubmed/19818860)
