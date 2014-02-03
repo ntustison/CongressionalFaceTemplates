@@ -20,7 +20,7 @@ Democrats
 
 ![Affine average](https://github.com/ntustison/CongressionalFaceTemplates/blob/master/Figures/affineAverageDemocrats.png?raw=true "")
 
-### ANTs:  Original SyN
+### ANTs:  Original SyN (`SyN[0.1,3,0]`)
 
 ![Affine average](https://github.com/ntustison/CongressionalFaceTemplates/blob/master/Figures/averageDemocratsSyN.png?raw=true "")
 
@@ -32,7 +32,7 @@ Republicans
 
 ![Affine average](https://github.com/ntustison/CongressionalFaceTemplates/blob/master/Figures/affineAverageRepublicans.png?raw=true "")
 
-### ANTs:  Original SyN
+### ANTs:  Original SyN (`SyN[0.1,3,0]`)
 
 ![Affine average](https://github.com/ntustison/CongressionalFaceTemplates/blob/master/Figures/averageRepublicansSyN.png?raw=true "")
 
@@ -44,11 +44,11 @@ Senate Democrats
 
 ![Affine average](https://github.com/ntustison/CongressionalFaceTemplates/blob/master/Figures/affineAverageSenateDemocrats.png?raw=true "")
 
-### ANTs:  Original SyN
+### ANTs:  Original SyN (`SyN[0.1,3,0]`)
 
 ![Affine average](https://github.com/ntustison/CongressionalFaceTemplates/blob/master/Figures/averageSenateDemocratsSyN.png?raw=true "")
 
-### ANTs:  B-spline SyN
+### ANTs:  B-spline SyN (`BSplineSyN[0.1,25,0]`)
 
 ![Affine average](https://github.com/ntustison/CongressionalFaceTemplates/blob/master/Figures/averageSenateDemocratsBSyN.png?raw=true "")
 
@@ -60,7 +60,7 @@ Senate Republicans
 
 ![Affine average](https://github.com/ntustison/CongressionalFaceTemplates/blob/master/Figures/affineAverageSenateRepublicans.png?raw=true "")
 
-### ANTs:  Original SyN
+### ANTs:  Original SyN (`SyN[0.1,3,0]`)
 
 ![Affine average](https://github.com/ntustison/CongressionalFaceTemplates/blob/master/Figures/averageSenateRepublicansSyN.png?raw=true "")
 
@@ -72,7 +72,7 @@ House Democrats
 
 ![Affine average](https://github.com/ntustison/CongressionalFaceTemplates/blob/master/Figures/affineAverageHouseDemocrats.png?raw=true "")
 
-### ANTs:  Original SyN
+### ANTs:  Original SyN (`SyN[0.1,3,0]`)
 
 ![Affine average](https://github.com/ntustison/CongressionalFaceTemplates/blob/master/Figures/averageHouseDemocratsSyN.png?raw=true "")
 
@@ -84,7 +84,7 @@ House Republicans
 
 ![Affine average](https://github.com/ntustison/CongressionalFaceTemplates/blob/master/Figures/affineAverageHouseRepublicans.png?raw=true "")
 
-### ANTs:  Original SyN
+### ANTs:  Original SyN (`SyN[0.1,3,0]`)
 
 ![Affine average](https://github.com/ntustison/CongressionalFaceTemplates/blob/master/Figures/averageHouseRepublicansSyN.png?raw=true "")
 
